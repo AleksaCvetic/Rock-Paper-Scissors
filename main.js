@@ -54,6 +54,7 @@ function game(){
     let teamHuman = 0;
     let teamComputer = 0;
     do{
+        let playerSelection = prompt("Choose 'Rock', 'Paper' or 'Scissors'!");
         let computerSelection = getComputerChoice();
         let answer = playRound(playerSelection,computerSelection);
         console.log(answer);
@@ -72,6 +73,6 @@ function game(){
     }while(teamHuman < 5 && teamComputer < 5)
 }
 
-const playerSelection= "Rock";
+
 
 game();
