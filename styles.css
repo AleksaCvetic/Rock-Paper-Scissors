@@ -1,0 +1,30 @@
+button{
+    width: 150px;
+    height: 100px;
+    font-weight: bold;
+    font-size: 30px;
+    border-radius: 50%;
+
+}
+#container{
+    margin-top: 50px;
+    display: flex;
+    flex: 1;
+    gap: 30px;
+    justify-content: center;
+
+}
+
+#scoreboard{
+    margin: 25px auto;
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+}
+
+#results{
+    margin: 25px auto;
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+}
